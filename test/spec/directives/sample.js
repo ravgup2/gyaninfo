@@ -27,7 +27,6 @@ describe('Directive: Sample', function () {
 	});
 
 	it('should have B element', function () {
-		console.log(elm);
 		scope.text = 'some test Ravi';
 		compile(elm)(scope);
   		scope.$digest();
