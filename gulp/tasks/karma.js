@@ -6,7 +6,7 @@ var compilePath = 'compiled';
 var bowerPath = 'compiled/bower_components';
 var config = {
     configFile: karmaConf,
-    singleRun: true
+    singleRun: false
   };
 gulp.task('karma:single', ['compile'], function (done) {
 	server = new Server(config, [done])

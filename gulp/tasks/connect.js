@@ -23,7 +23,7 @@ var _connect = function (staticPath, cb) {
     //refresh.listen();
 
     // Start webserver
-    server.listen(9000, cb);
+    server.listen(8000, cb);
 };
 
 gulp.task('connect', ['connect:compile']);

@@ -27,7 +27,7 @@ describe('Directive: Other', function () {
 
   it('config on isolated scope should be two-way bound', function(){
     var isolatedScope = directiveElem.isolateScope();
-    console.log(isolatedScope);
+    //console.log(isolatedScope);
     isolatedScope.config.prop = "value2";
 
     expect(scope.config.prop).to.equal('value2');
@@ -58,7 +58,7 @@ describe('Directive: Other', function () {
   	var fun = function(){
 	    getCompiledElement('<input type="text" other-directive />');
 	  };
-	  console.log(fun);
+	  //console.log(fun);
 	  //expect().to.throw();
 	});
 
